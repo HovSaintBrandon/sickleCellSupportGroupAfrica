@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SickleCellSupportGroup - Fighting Sickle Cell Disease Across Africa</title>
+    <meta name="description"
+        content="Join SickleCellSupportGroup in the fight against sickle cell disease. Together, we create awareness, support patients, and transform lives across the African continent." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="/" class="logo">
+                    <div class="logo-icon"><i data-lucide="heart"
+                            style="width:1.25rem;height:1.25rem;color:var(--primary-foreground)"></i></div>
+                    <div class="logo-text">Sickle<span>Cell</span>SupportGroup</div>
+                </a>
+                <nav class="nav-desktop">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#impact" class="nav-link">Our Impact</a>
+                    <a href="#stories" class="nav-link">Stories</a>
+                    <a href="#help" class="nav-link">Get Involved</a>
+                </nav>
+                <div class="header-cta">
+                    <button class="btn btn-hero btn-lg">Donate Now</button>
+                </div>
+                <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">
+                    <i data-lucide="menu" id="menu-icon" style="width:1.5rem;height:1.5rem"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav" id="mobile-nav">
+                <a href="#about" class="nav-link" onclick="closeMenu()">About</a>
+                <a href="#impact" class="nav-link" onclick="closeMenu()">Our Impact</a>
+                <a href="#stories" class="nav-link" onclick="closeMenu()">Stories</a>
+                <a href="#help" class="nav-link" onclick="closeMenu()">Get Involved</a>
+                <button class="btn btn-hero btn-lg" style="margin-top:0.5rem">Donate Now</button>
+            </nav>
+        </div>
+    </header>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay1"></div>
+        <div class="hero-overlay2"></div>
+        <div class="hero-glow1"></div>
+        <div class="hero-glow2"></div>
+        <div class="container" style="position:relative;z-index:10">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i data-lucide="heart" style="width:1rem;height:1rem"></i>
+                    <span>Fighting Sickle Cell Across Africa</span>
+                </div>
+                <h1>Every Drop of <span class="text-gradient-blood">Blood</span> Tells a Story</h1>
+                <p class="hero-sub">Join us in the fight against sickle cell disease. Together, we can create awareness,
+                    support patients, and transform lives across the African continent.</p>
+                <div class="hero-ctas">
+                    <button class="btn btn-hero btn-xl">Get Involved <i data-lucide="arrow-right"
+                            style="width:1.25rem;height:1.25rem"></i></button>
+                    <button class="btn btn-outline btn-xl">Learn About SCD</button>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <p class="stat-value">75%</p>
+                        <p class="stat-label">of SCD cases are in Africa</p>
+                    </div>
+                    <div>
+                        <p class="stat-value">300K+</p>
+                        <p class="stat-label">babies born with SCD yearly</p>
+                    </div>
+                    <div>
+                        <p class="stat-value">50+</p>
+                        <p class="stat-label">partner organizations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="deco-cell top-right">
+            <svg viewBox="0 0 100 100">
+                <ellipse cx="50" cy="50" rx="45" ry="40" fill="var(--blood-vibrant)" />
+            </svg>
+        </div>
+        <div class="deco-cell bottom-left">
+            <svg viewBox="0 0 100 100">
+                <path d="M20 50 Q30 20 60 25 Q90 30 85 55 Q80 80 50 75 Q20 70 20 50" fill="var(--blood-deep)" />
+            </svg>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">About Sickle Cell Disease</span>
+                <h2 class="section-title">Knowledge is the First Step to <span class="text-gradient-blood">Change</span>
+                </h2>
+                <p class="section-desc">Sickle cell disease is the most common inherited blood disorder in Africa. By
+                    spreading awareness and providing support, we can improve outcomes for millions.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="droplet" style="width:1.75rem;height:1.75rem"></i></div>
+                    <h3>Understanding SCD</h3>
+                    <p>Sickle cell disease affects the red blood cells, causing them to become rigid and sickle-shaped,
+                        leading to pain and complications.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="dna" style="width:1.75rem;height:1.75rem"></i></div>
+                    <h3>Genetic Awareness</h3>
+                    <p>SCD is inherited when both parents carry the sickle cell trait. Genetic counseling can help
+                        families make informed decisions.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="users" style="width:1.75rem;height:1.75rem"></i></div>
+                    <h3>Community Support</h3>
+                    <p>We connect patients, families, and healthcare providers to build a strong support network across
+                        African communities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i data-lucide="shield" style="width:1.75rem;height:1.75rem"></i></div>
+                    <h3>Prevention & Care</h3>
+                    <p>Early screening, proper treatment, and preventive care can significantly improve quality of life
+                        for those with SCD.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- IMPACT -->
+    <section id="impact" class="impact">
+        <div class="container" style="position:relative;z-index:10">
+            <div class="section-header">
+                <span class="section-label">Our Impact</span>
+                <h2 class="section-title">Together, We Are Making a Difference</h2>
+                <p class="section-desc">Through partnerships, education, and community support, we're transforming the
+                    landscape of sickle cell disease care in Africa.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon"><i data-lucide="users" style="width:1.5rem;height:1.5rem"></i></div>
+                    <p class="stat-value">2M+</p>
+                    <p class="stat-name">People Reached</p>
+                    <p class="stat-desc">Through awareness campaigns across Africa</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i data-lucide="map-pin" style="width:1.5rem;height:1.5rem"></i></div>
+                    <p class="stat-value">32</p>
+                    <p class="stat-name">Countries</p>
+                    <p class="stat-desc">Active presence in African nations</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i data-lucide="calendar" style="width:1.5rem;height:1.5rem"></i></div>
+                    <p class="stat-value">500+</p>
+                    <p class="stat-name">Events Held</p>
+                    <p class="stat-desc">Screenings, workshops, and support groups</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon"><i data-lucide="trending-up" style="width:1.5rem;height:1.5rem"></i></div>
+                    <p class="stat-value">85%</p>
+                    <p class="stat-name">Early Detection</p>
+                    <p class="stat-desc">Increase in newborn screening rates</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- GET INVOLVED -->
+    <section id="help" class="get-involved">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get Involved</span>
+                <h2 class="section-title">Be Part of the <span class="text-gradient-blood">Movement</span></h2>
+                <p class="section-desc">Every action counts. Whether you donate, volunteer, or spread the word, you're
+                    helping to save lives and transform communities.</p>
+            </div>
+            <div class="actions-grid">
+                <div class="action-card featured">
+                    <div class="action-icon"><i data-lucide="heart" style="width:1.75rem;height:1.75rem"></i></div>
+                    <h3>Donate</h3>
+                    <p>Your contribution helps fund screening programs, patient support, and research initiatives.</p>
+                    <button class="btn btn-outline-light btn-lg btn-full">Make a Donation</button>
+                </div>
+                <div class="action-card normal">
+                    <div class="action-icon"><i data-lucide="hand-heart" style="width:1.75rem;height:1.75rem"></i></div>
+                    <h3>Volunteer</h3>
+                    <p>Join our network of volunteers helping with events, outreach, and patient support programs.</p>
+                    <button class="btn btn-hero btn-lg btn-full">Join Us</button>
+                </div>
+                <div class="action-card normal">
+                    <div class="action-icon"><i data-lucide="megaphone" style="width:1.75rem;height:1.75rem"></i></div>
+                    <h3>Spread Awareness</h3>
+                    <p>Share our mission on social media and help educate your community about sickle cell disease.</p>
+                    <button class="btn btn-hero btn-lg btn-full">Share Now</button>
+                </div>
+                <div class="action-card normal">
+                    <div class="action-icon"><i data-lucide="stethoscope" style="width:1.75rem;height:1.75rem"></i>
+                    </div>
+                    <h3>Healthcare Partners</h3>
+                    <p>Are you a healthcare provider? Partner with us to improve SCD care in your community.</p>
+                    <button class="btn btn-hero btn-lg btn-full">Partner With Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo" style="margin-bottom:1rem">
+                        <div class="logo-icon"><i data-lucide="heart"
+                                style="width:1.25rem;height:1.25rem;color:var(--primary-foreground)"></i></div>
+                        <div class="logo-text" style="color:var(--background)">Sickle<span
+                                style="color:var(--blood-glow)">Cell</span>SupportGroup</div>
+                    </a>
+                    <p>Fighting sickle cell disease across Africa through awareness, support, and advocacy.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i data-lucide="facebook"
+                                style="width:1.25rem;height:1.25rem"></i></a>
+                        <a href="#" class="social-link"><i data-lucide="twitter"
+                                style="width:1.25rem;height:1.25rem"></i></a>
+                        <a href="#" class="social-link"><i data-lucide="instagram"
+                                style="width:1.25rem;height:1.25rem"></i></a>
+                        <a href="#" class="social-link"><i data-lucide="youtube"
+                                style="width:1.25rem;height:1.25rem"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Impact</a></li>
+                        <li><a href="#">Patient Stories</a></li>
+                        <li><a href="#">Get Involved</a></li>
+                        <li><a href="#">News & Events</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Understanding SCD</a></li>
+                        <li><a href="#">Living with SCD</a></li>
+                        <li><a href="#">For Caregivers</a></li>
+                        <li><a href="#">Healthcare Providers</a></li>
+                        <li><a href="#">Research & Data</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <div style="display:flex;flex-direction:column;gap:1rem">
+                        <div class="contact-item">
+                            <i data-lucide="map-pin" style="width:1.25rem;height:1.25rem"></i>
+                            <span>Pan-African Health Initiative<br>Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="phone" style="width:1.25rem;height:1.25rem"></i>
+                            <a href="tel:+254000000000">+254 000 000 000</a>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="mail" style="width:1.25rem;height:1.25rem"></i>
+                            <a href="mailto:info@sicklecellsupportgroup.org">info@sicklecellsupportgroup.org</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 SickleCellSupportGroup. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
